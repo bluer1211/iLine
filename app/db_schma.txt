@@ -1,0 +1,69 @@
+CREATE TABLE user_account(
+           user_id serial PRIMARY KEY,
+           user_name VARCHAR (50) UNIQUE NOT NULL,
+           password VARCHAR (50) NOT NULL,
+           line_id VARCHAR (50) UNIQUE,
+           email VARCHAR (355),
+           created_on TIMESTAMP NOT NULL,
+           last_login TIMESTAMP
+        )
+
+
+CREATE TABLE rm_account(
+           rm_id serial PRIMARY KEY,
+           rm_name VARCHAR (50) UNIQUE NOT NULL,
+           password VARCHAR (50) NOT NULL,
+           line_id VARCHAR (50) UNIQUE,
+
+           email VARCHAR (355),
+           created_on TIMESTAMP NOT NULL,
+           last_login TIMESTAMP
+        )
+
+2.1
+抗疫我挺你！
+全民拚防疫，當握最新疫情資訊
+2.1.1.衛福部疾管署網站
+	https://www.cdc.gov.tw/?openExternalBrowser=1
+2.1.2.遠銀數位平台不打祥
+	https://www.feib.com.tw/upload/IndividualBank/Event/20210610/index.html?openExternalBrowser=1
+
+2.2
+居家自「煮」健康管理
+煮到懷疑人生?快看線上烹飪示範！ 
+2.2.1.小遠贏了-五星主廚教學
+2.2.1.1
+居家自「煮」健康管理
+吃膩外送餐點還是煮到懷疑人生？五星主廚線上示範享飪秘訣，宅在家也能吃的健康又美味！
+2.2.1.1.1.清燉獅子頭
+	https://m.youtube.com/watch?v=9OeX0H1leVE&openExternalBrowser=1
+2.2.1.1.2.豌豆雞排
+	https://m.youtube.com/watch?v=Jfodsy2Hx88&list=PLF3_3bQ2C7KFqnFxUBwB839p6Em96Evte&index=14&openExternalBrowser=1
+2.2.1.1.2.蔥燒烏參
+	https://m.youtube.com/watch?v=v4xo7KfWXaI&list=PLF3_3bQ2C7KFqnFxUBwB839p6Em96Evte&index=8&openExternalBrowser=1
+2.2.2.線上網購蔬菜箱
+	https://epost.coa.gov.tw/theme_data.php?theme=epost&sub_theme=photo&id=115&openExternalBrowser=1
+
+3.最新活動
+3.1.
+快樂退 全民計畫
+快樂退定期定額新戶申購手續費終身0%
+	https://www.feib.com.tw/upload/IndividualBank/WM/happypension/index.html?openExternalBrowser=1
+3.2.
+樂加＋卡
+首張專注親子禮遇信用卡
+	https://www.feib.com.tw/upload/creditcard/YACard/index.html?empbranch=VD2033&openExternalBrowser=1
+3.3.
+Online隨時貸
+優惠利率1.8%起(浮)，線上申請且撥款成功月月抽【開辦費全額回饋】
+	https://www.feib.com.tw/upload/personalloan/event/2021Q3/index.html?openExternalBrowser=1
+4.更多服務
+4.1.人氣好康
+4.2.享槳全攻略
+4.3.生活懶人包
+4.4.個人化生日賀卡
+4.5.金融服務專區
+
+5.智能小樂
+https://robot.feib.com.tw/Webhook/
+
